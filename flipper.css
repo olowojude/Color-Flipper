@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,300&display=swap');
+
+
 * {
 	margin: 0;
 	box-sizing: border-box;
 	padding: 0;
+	font-family: 'Inter Tight', sans-serif;;
 }
 .container {
     display: flex;
@@ -11,11 +15,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-	font-family: ;
 }
 p {
 	padding: 1em;
 	margin-bottom: .5em;
+	text-align: center;
 }
 button {
 	padding: 1em;
@@ -23,4 +27,15 @@ button {
 	outline: none;
 	border-radius: 10px;
 	cursor: pointer;
+}
+@media (max-width: 500px) {
+	span {
+		display: inline-block;
+		text-align: center;
+		margin: 1em auto;
+		width: 100%;
+	}
+	p {
+		padding: .5em;
+	}
 }
