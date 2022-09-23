@@ -20,6 +20,8 @@ p {
 	padding: 1em;
 	margin-bottom: .5em;
 	text-align: center;
+	font-size: 1.5em;
+	display: inline-block;
 }
 button {
 	padding: 1em;
@@ -37,5 +39,13 @@ button {
 	}
 	p {
 		padding: .5em;
+		width: 10em;
+	}
+}
+@media (max-width: 500px) {
+	p {
+		padding: .5em;
+		width: 10em;
+		font-size: 1.2em;
 	}
 }
